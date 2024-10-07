@@ -10,13 +10,14 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
-    <title>Helax - Tech Startup Landing Page Html Template</title>
+    <title>BLK-Tech</title>
 
     <link
       rel="shortcut icon"
-      href="assets/img/favicon.png"
+      href="./assets/img/logo/blk_logo_title.png"
       type="images/x-icon"
     />
+    <link rel="stylesheet" href="./general.css">
 
     <!-- css include -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -56,9 +57,12 @@
         <div class="header__main-wrap stricky">
           <div class="container">
             <div class="d_header">
-              <div class="header__logo" style="">
+              <div class="header__logo">
                 <a href="index.html"
-                  ><img src="assets/img/logo/blk_logo2.png" alt="" style="filter:brightness(10)"
+                  ><img
+                    src="assets/img/logo/blk_logo2.png"
+                    alt=""
+                    style="filter: brightness(10)"
                 /></a>
               </div>
               <div class="main-menu__wrap ul_li navbar navbar-expand-lg">
@@ -70,8 +74,21 @@
                     <li>
                       <a class="scrollspy-btn" href="#solutions">Solutions</a>
                     </li>
-
-                    <li><a class="scrollspy-btn" href="#contact">Contact</a></li>
+                    <li>
+                      <a class="scrollspy-btn" href="#industries">Industries</a>
+                    </li>
+                    <li>
+                      <a class="scrollspy-btn" href="#process">Our Process</a>
+                    </li>
+                    <li>
+                      <a class="scrollspy-btn" href="#commitment">Commitment</a>
+                    </li>
+                    <li>
+                      <a class="scrollspy-btn" href="#partner">Partner</a>
+                    </li>
+                    <li>
+                      <a class="scrollspy-btn" href="#contact">Contact</a>
+                    </li>
                   </ul>
                 </nav>
               </div>
@@ -104,93 +121,29 @@
           <a class="tx-close" href="javascript:void(0);"></a>
         </div>
 
-        <!-- sidebar-info start -->
-        <div class="sidebar-info">
-          <div class="sidebar-logo mb-30">
-            <a href="index.html">
-              <img src="assets/img/logo/logo.svg" alt="logo" />
-            </a>
-          </div>
-          <div class="sidebar-content mb-40">
-            <p>
-              Revolutionize Your Future: Harness the Power of Technology for
-              Unparalleled Growth and Success!
-            </p>
-          </div>
-          <ul class="sidebar-menu list-unstyled">
-            <li><a href="#!">Solutions</a></li>
-            <li><a href="#!">Contact</a></li>
-            <li><a href="#!">Projects</a></li>
-            <li><a href="#!">Blog</a></li>
-            <li><a href="#!">Contact</a></li>
-          </ul>
-          <div class="ul_li mt-60">
-            <div class="ct-content-wrap d-flex">
-              <div class="ct-title col-auto">Call us:</div>
-              <div class="ct-content-wrap col">
-                <div class="ct-item-wrap row">
-                  <div class="ct-item col-auto">
-                    <span class="item-content"
-                      ><a href="tel:02456787535" class="tel"
-                        >024 5678 7535</a
-                      ></span
-                    >
-                  </div>
-                  <div class="ct-item col-auto">
-                    <span class="item-content"
-                      ><a href="mailto:support@gmail.com"
-                        >support@gmail.com</a
-                      ></span
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="sidebar-socials-wrap mt-30">
-            <a class="social-item" href="https://facebook.com" target="_blank"
-              >Facebook</a
-            ><a
-              class="social-item"
-              href="https://www.behance.net/"
-              target="_blank"
-              >Behance</a
-            ><a class="social-item" href="#" target="_blank">Telegram</a
-            ><a class="social-item" href="https://dribbble.com/" target="_blank"
-              >Dribbble</a
-            >
-          </div>
-        </div>
-        <!-- sidebar-info end -->
 
         <!-- side-mobile-menu start -->
         <nav class="side-mobile-menu">
-          <div class="header-mobile-search">
-            <form role="search" method="get" action="#">
-              <input type="text" placeholder="Search Keywords" />
-              <button type="submit"><i class="ti-search"></i></button>
-            </form>
-          </div>
+   
           <ul id="mobile-menu-active">
             <li>
-              <a class="scrollspy-btn" href="#">Home</a>
-              <!-- <ul class="sub-menu">
-                <li><a href="index.html">Home Chatbot</a></li>
-                <li class="active"><a href="home-2.html">Home CRM</a></li>
-                <li><a href="home-3.html">Home Copy Writing</a></li>
-              </ul> -->
+              <a class="scrollspy-btn" href="#solutions">Solutions</a>
             </li>
-            <li><a class="scrollspy-btn" href="#solutions">Solutions</a></li>
-            <li><a class="scrollspy-btn" href="#contact">Contact</a></li>
-            <!-- <li class="dropdown">
-              <a href="#!">Blog</a>
-              <ul class="sub-menu">
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="blog-single.html">Blog Details</a></li>
-              </ul>
-            </li> -->
-            <!-- <li><a href="contact.html">Get in touch</a></li> -->
+            <li>
+              <a class="scrollspy-btn" href="#industries">Industries</a>
+            </li>
+            <li>
+              <a class="scrollspy-btn" href="#process">Our Process</a>
+            </li>
+            <li>
+              <a class="scrollspy-btn" href="#commitment">Commitment</a>
+            </li>
+            <li>
+              <a class="scrollspy-btn" href="#partner">Partner</a>
+            </li>
+            <li>
+              <a class="scrollspy-btn" href="#contact">Contact</a>
+            </li>
           </ul>
         </nav>
         <!-- side-mobile-menu end -->
@@ -312,7 +265,7 @@
           <div class="container">
             <div class="feature__wrapper">
               <div class="row mt-none-20 justify-content-center">
-                <div class="col-lg-4 col-md-6 mt-20">
+                <div class="col-lg-6 col-md-6 mt-20">
                   <div
                     class="feature__single"
                     style="
@@ -326,11 +279,10 @@
                     <h3 style="color: white">Innovation-Driven</h3>
                     <ul class="feature__list mb-40">
                       <li style="color: white">
-                        <i class="far fa-arrow-right" style="color: white"></i
-                        >
-                        <p style="color: #8f9bb7; font-size: 16px;">
+                        <i class="far fa-arrow-right" style="color: white"></i>
+                        <p style="color: #8f9bb7; font-size: 16px">
                           BLK Tech is always at the forefront of fintech trends,
-                        offering solutions that keep you ahead of the curve.
+                          offering solutions that keep you ahead of the curve.
                         </p>
                         <!-- <br />
                         experience -->
@@ -346,9 +298,8 @@
                     > -->
                   </div>
                 </div>
-                
-                
-                <div class="col-lg-4 col-md-6 mt-20">
+
+                <div class="col-lg-6 col-md-6 mt-20">
                   <div class="feature__single">
                     <div class="icon">
                       <img src="assets/img/icon/f_02.png" alt="" />
@@ -356,11 +307,10 @@
                     <h3 style="color: white">Scalability</h3>
                     <ul class="feature__list mb-40">
                       <li style="color: white">
-                        <i class="far fa-arrow-right" style="color: white"></i
-                        >
-                        <p style="color: #8f9bb7; font-size: 16px;">
+                        <i class="far fa-arrow-right" style="color: white"></i>
+                        <p style="color: #8f9bb7; font-size: 16px">
                           Our platforms grow with your business, enabling you to
-                        scale without friction.
+                          scale without friction.
                         </p>
                         <!-- <br />
                         increasing employee <br />
@@ -376,7 +326,7 @@
                     > -->
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-20">
+                <div class="col-lg-6 col-md-6 mt-20">
                   <div class="feature__single">
                     <div class="icon">
                       <img src="assets/img/icon/f_03.png" alt="" />
@@ -384,11 +334,10 @@
                     <h3 style="color: white">Security Focus</h3>
                     <ul class="feature__list mb-40">
                       <li style="color: white">
-                        <i class="far fa-arrow-right" style="color: white"></i
-                        >
-                        <p style="color: #8f9bb7; font-size: 16px;">
+                        <i class="far fa-arrow-right" style="color: white"></i>
+                        <p style="color: #8f9bb7; font-size: 16px">
                           We prioritize the safety of your data and operations
-                        with robust security measures.
+                          with robust security measures.
                         </p>
                       </li>
                       <!-- <li>
@@ -401,7 +350,7 @@
                     > -->
                   </div>
                 </div>
-                <div class="col-lg-12 col-md-6 mt-40">
+                <div class="col-lg-6 col-md-6 mt-20">
                   <div class="feature__single">
                     <div class="icon">
                       <img src="assets/img/icon/f_03.png" alt="" />
@@ -409,12 +358,11 @@
                     <h3 style="color: white">Fintech Expertise</h3>
                     <ul class="feature__list mb-40">
                       <li style="color: white">
-                        <i class="far fa-arrow-right" style="color: white"></i
-                        >
-                        <p style="color: #8f9bb7; font-size: 16px;">
+                        <i class="far fa-arrow-right" style="color: white"></i>
+                        <p style="color: #8f9bb7; font-size: 16px">
                           With deep knowledge of the financial technology
-                        landscape, we design systems that are adaptable to the
-                        rapid changes in this sector.
+                          landscape, we design systems that are adaptable to the
+                          rapid changes in this sector.
                         </p>
                       </li>
                       <!-- <li>
@@ -448,48 +396,61 @@
           </div>
         </section>
         <!-- ---------------------why choose blk end------ -->
-        <section class="cta pos-rel pb-140">
+        <section class="cta pos-rel pb-140" id="industries">
           <div class="container">
-              <div class="row mt-none-20">
-                  <div class="col-xl-9 col-lg-8 mt-20">
-                      <div class="sec-title">
-                        <div class="crm-title  mb-20">
-                          <h2 class="crm-title__heading mb-30">Industries We Serve</h2>
-                          
-                      </div>
-                      <p style="color:#8F9BB7">BLK Tech works with a diverse range of businesses in the financial 
-                        technology sector, providing adaptable infrastructure and custom 
-                        solutions for:</p>
-                      </div>
+            <div class="row mt-none-20">
+              <div class="col-xl-12 col-lg-12 mt-20">
+                <div class="sec-title">
+                  <div class="crm-title mb-20">
+                    <h2
+                      class="crm-title__heading mb-30"
+                      style="text-align: center"
+                    >
+                      Industries We Serve
+                    </h2>
                   </div>
-                  <!-- <div class="col-xl-3 col-lg-4 mt-20">
+                  <p style="color: #8f9bb7; text-align: center">
+                    BLK Tech works with a diverse range of businesses in the
+                    financial technology sector, providing adaptable
+                    infrastructure and custom solutions for:
+                  </p>
+                </div>
+              </div>
+              <!-- <div class="col-xl-3 col-lg-4 mt-20">
                       <div class="cta__btn text-lg-end mt-10">
                           <a class="thm-btn thm-btn--gradient br-5" href="#!">Start Chatting Now</a>
                       </div>
                   </div> -->
-              </div>
-              <ul class="footer__top cta-list ul_li_between mt-35">
-                <li style="color: #82848B;"><i class="far fa-check" ></i>Payment Processors</li>
-                <li style="color: #82848B;"><i class="far fa-check"></i>Digital Banking Platforms</li>
-                <li style="color: #82848B;"><i class="far fa-check"></i>Investment & Wealth Management</li>
-                  
-              </ul>
-              <ul class="footer__top cta-list ul_li_between mt-35">
-                
-                <li style="color: #82848B;"><i class="far fa-check"></i>Cryptocurrency Exchanges</li>
-                 <li style="color: #82848B;"><i class="far fa-check"></i>Insurtech Companies</li> 
-              </ul>
+            </div>
+            <ul class="footer__top cta-list ul_li_between mt-35">
+              <li style="color: #82848b">
+                <i class="far fa-check"></i>Payment Processors
+              </li>
+              <li style="color: #82848b">
+                <i class="far fa-check"></i>Digital Banking Platforms
+              </li>
+              <li style="color: #82848b">
+                <i class="far fa-check"></i>Investment & Wealth Management
+              </li>
+            </ul>
+            <ul class="footer__top cta-list ul_li_between mt-35">
+              <li style="color: #82848b">
+                <i class="far fa-check"></i>Cryptocurrency Exchanges
+              </li>
+              <li style="color: #82848b">
+                <i class="far fa-check"></i>Insurtech Companies
+              </li>
+            </ul>
           </div>
           <div class="cta__shape">
-              <div class="shape shape--1" data-parallax='{"y" : 80}'>
-                  <img src="assets/img/shape/cta_shape1.png" alt="">
-              </div>
-              <div class="shape shape--2" data-parallax='{"x" : 80}'>
-                  <img src="assets/img/shape/cta_shape2.png" alt="">
-              </div>
+            <div class="shape shape--1" data-parallax='{"y" : 80}'>
+              <img src="assets/img/shape/cta_shape1.png" alt="" />
+            </div>
+            <div class="shape shape--2" data-parallax='{"x" : 80}'>
+              <img src="assets/img/shape/cta_shape2.png" alt="" />
+            </div>
           </div>
-      </section>
-        
+        </section>
 
         <!-- feature start -->
         <!-- <section id="feature" class="crm-feature pos-rel pt-70 pb-140">
@@ -577,8 +538,8 @@
         </section> -->
         <!-- feature end -->
         <!-- industries start-->
-        
-<!-- industries end-->
+
+        <!-- industries end-->
         <!-- process start -->
         <section id="solutions" class="process pos-rel pb-120">
           <div class="process__shape">
@@ -650,7 +611,10 @@
                     "
                     class="solutions_text"
                   >
-                    <h3 class="title" style="color: white; font-size: 32px; margin-bottom: 15px">
+                    <h3
+                      class="title"
+                      style="color: white; font-size: 32px; margin-bottom: 15px"
+                    >
                       Payment Infrastructure
                     </h3>
 
@@ -673,7 +637,12 @@
                     "
                     class="solutions_text"
                   >
-                  <h3 class="title" style="color: white; font-size: 32px; margin-bottom: 15px">Data Management Systems</h3>
+                    <h3
+                      class="title"
+                      style="color: white; font-size: 32px; margin-bottom: 15px"
+                    >
+                      Data Management Systems
+                    </h3>
                     <!-- <i
                       class="far fa-arrow-right"
                       style="color: white; margin-right: 10px"
@@ -693,7 +662,10 @@
                     "
                     class="solutions_text"
                   >
-                    <h3 class="title" style="color: white; font-size: 32px; margin-bottom: 15px">
+                    <h3
+                      class="title"
+                      style="color: white; font-size: 32px; margin-bottom: 15px"
+                    >
                       Digital Asset Platforms
                     </h3>
                     <!-- <i
@@ -757,11 +729,11 @@
                 >
               </div>
             </div> -->
-            <div class="row mt-50 pt-xs-90">
+            <div class="row mt-50 pt-xs-0">
               <div class="col-12">
                 <div class="process__area">
-                  <div class="process__top ul_li_between mt-none-30">
-                    <div class="crm-title mt-30">
+                  <div class="process__top ul_li_between mt-none-30 security">
+                    <div class="crm-title mt-30 security_div1">
                       <h2 class="crm-title__heading mb-15">
                         Security and Compliance Solutions
                       </h2>
@@ -777,7 +749,7 @@
                         >
                       </div> -->
                     </div>
-                    <div class="image mt-30">
+                    <div class="image mt-30 security_div2">
                       <img src="assets/img/process/img_04.png" alt="" />
                     </div>
                   </div>
@@ -843,7 +815,9 @@
               <div class="col-md-6 mt-30">
                 <div class="step__single">
                   <span>Step 01</span>
-                  <h4 class="contact-header"><span style="color: white;">01.</span> Consultation</h4>
+                  <h4 class="contact-header">
+                    <span style="color: white">01.</span> Consultation
+                  </h4>
                   <p style="color: #8f9bb7">
                     We start by understanding your business and technological
                     needs. Through in-depth consultations, we explore your
@@ -856,7 +830,7 @@
                 <div class="step__single">
                   <span>Step 02</span>
                   <h4 class="contact-header">
-                    <span style="color: white;">02.</span> Design and Development
+                    <span style="color: white">02.</span> Design and Development
                   </h4>
                   <p style="color: #8f9bb7">
                     Our design and development teams collaborate to create
@@ -871,7 +845,8 @@
                 <div class="step__single">
                   <span>Step 03</span>
                   <h4 class="contact-header">
-                    <span style="color: white;">03.</span> Testing and Implementation
+                    <span style="color: white">03.</span> Testing and
+                    Implementation
                   </h4>
                   <p style="color: #8f9bb7">
                     Before launching any solution, we rigorously test for
@@ -884,8 +859,8 @@
               <div class="col-md-6 mt-30">
                 <div class="step__single">
                   <span>Step 04</span>
-                  <h4 class="contact-header" >
-                    <span style="color: white;">04.</span> Ongoing Support
+                  <h4 class="contact-header">
+                    <span style="color: white">04.</span> Ongoing Support
                   </h4>
                   <p style="color: #8f9bb7">
                     After implementation, we provide continuous support to
@@ -926,9 +901,9 @@
               <img src="assets/img/shape/pr_shape3.png" alt="" />
             </div>
           </div>
-          <div class="container">
-            <div class="process__wrap ul_li_between">
-              <div class="process__title mt-30">
+          <div class="container" id="commitment">
+            <div class="process__wrap ul_li_between commitment">
+              <div class="process__title mt-30 commitment_div1">
                 <h3 class="title">Our Commitment to Innovation</h3>
                 <p>
                   At BLK Tech, we believe innovation is key to staying
@@ -941,7 +916,7 @@
                   and thrive.
                 </p>
               </div>
-              <div class="process__ss mt-30">
+              <div class="process__ss mt-30 commitment_div2">
                 <img
                   src="assets/img/process/img_07.jpg"
                   alt="commitment to innovation"
@@ -1087,7 +1062,7 @@
         class="site-footer footer-style-two pos-rel pt-85"
         data-background="assets/img/shape/fot_shape2.png"
       >
-        <div class="container">
+        <div class="container" id="partner">
           <div class="row">
             <div class="crm-community text-center">
               <!-- <ul class="crm-community__social ul_li_center mb-35">
@@ -1104,7 +1079,7 @@
                   competitive and innovative in the fintech space.
                 </p>
               </div>
-              <a class="thm-btn thm-btn--gradient style-2" href="#!"
+              <a class="thm-btn thm-btn--gradient style-2 scrollspy-btn" href="#contact"
                 >Join us Now</a
               >
             </div>
@@ -1116,9 +1091,7 @@
             <div class="container">
               <div class="crm-title text-center mb-20">
                 <h2 class="crm-title__heading mb-30">Contact us</h2>
-                <p class="mt-10">
-                  Let’s work together to build your future. 
-                </p>
+                <p class="mt-10">Let’s work together to build your future.</p>
               </div>
               <div class="contact-info">
                 <div class="row justify-content-md-center mt-none-30">
@@ -1143,8 +1116,8 @@
                       <p class="contact-para">+123-456-7890</p>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-md-6 mt-30" >
-                    <div class="contact-info__item" >
+                  <div class="col-lg-4 col-md-6 mt-30">
+                    <div class="contact-info__item">
                       <div class="icon">
                         <img src="assets/img/icon/email.svg" alt="" />
                       </div>
@@ -1190,122 +1163,15 @@
 
           <!-- contact us end-->
         </div>
-      </footer>
-      <!-- <footer
-        class="site-footer footer-style-two pos-rel pt-85"
-        data-background="assets/img/shape/fot_shape2.png"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="crm-community text-center">
-              <ul class="crm-community__social ul_li_center mb-35">
-                <li>
-                  <a href="#!"
-                    ><img src="assets/img/icon/discord.png" alt=""
-                  /></a>
-                </li>
-                <li>
-                  <a href="#!"
-                    ><img src="assets/img/icon/whatsapp.png" alt=""
-                  /></a>
-                </li>
-                <li>
-                  <a href="#!"
-                    ><img src="assets/img/icon/telegram.png" alt=""
-                  /></a>
-                </li>
-              </ul>
-              <div class="crm-title text-center mb-40">
-                <h2 class="crm-title__heading">Join our Global Community</h2>
-              </div>
-              <a class="thm-btn thm-btn--gradient style-2" href="#!"
-                >Join us Now</a
-              >
-            </div>
-          </div>
-          <div class="row mt-none-30 pb-90">
-            <div class="col-lg-4 col-md-6 mt-30">
-              <div class="footer__cta">
-                <span class="title">NEWSLETTER</span>
-                <h4>
-                  Get now free 20% discount for all <br />
-                  products on your first order!
-                </h4>
-                <form class="footer__newsletter" action="#">
-                  <input type="text" placeholder="Email address" />
-                  <button class="thm-btn thm-btn--gradient style-2 br-5">
-                    SIGN UP
-                  </button>
-                </form>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-30">
-              <div class="footer__cta pl-45">
-                <span class="title">QUICK CONTACT</span>
-                <h4>
-                  If you have questions, please use our 24- <br />hour helpline
-                </h4>
-                <span class="cta-number"
-                  ><span><img src="assets/img/icon/np_icon2.svg" alt="" /></span
-                  >760 398-3535</span
-                >
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-30">
-              <div class="footer__cta text-lg-end">
-                <span class="title">FOLLOW US</span>
-                <ul class="footer__cta-social ul_li_right mb-60">
-                  <li>
-                    <a href="#!"><i class="fab fa-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href="#!"><i class="fab fa-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="#!"><i class="fab fa-instagram"></i></a>
-                  </li>
-                </ul>
-                <ul class="footer__cta-link ul_li_right">
-                  <li><a href="#!">PayPal</a></li>
-                  <li><a href="#!">VISA</a></li>
-                  <li><a href="#!">Master Card</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+
         <div class="footer__copyright">
           <div class="container">
-            <div class="ul_li_between mt-none-10">
-              <div class="footer__copyright-text mt-10">
-                © 2023 Helax - Tech startup . All Rights Reserved.
-              </div>
-              <ul class="footer__social ul_li mt-10">
-                <li>
-                  <a href="#!"><i class="fab fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a href="#!"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="#!"><i class="fab fa-instagram"></i></a>
-                </li>
-                <li>
-                  <a href="#!"><i class="fab fa-pinterest"></i></a>
-                </li>
-              </ul>
+            <div class="footer__copyright-text pt-10 text-center">
+              © 2024 BLK-Tech. All Rights Reserved.
             </div>
           </div>
         </div>
-        <div class="crm-footer__shape">
-          <div class="shape shape--1" data-parallax='{"y" : 70}'>
-            <img src="assets/img/shape/fot_shape1.png" alt="" />
-          </div>
-          <div class="shape shape--2" data-parallax='{"y" : 80}'>
-            <img src="assets/img/shape/fot_shape3.png" alt="" />
-          </div>
-        </div>
-      </footer> -->
+      </footer>
     </div>
 
     <!-- jquery include -->
