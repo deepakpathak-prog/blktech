@@ -1,0 +1,156 @@
+.cta {
+  padding-bottom: 140px;
+}
+
+.sec-title h2,
+.sec-title p {
+  text-align: center;
+}
+
+.cta-list {
+  list-style: none;
+  padding: 0;
+  margin: 35px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cta-list li {
+  color: #82848b;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .cta {
+    padding-bottom: 80px;
+  }
+
+  .cta-list {
+    margin: 0 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cta-list li {
+    flex-basis: auto;
+    margin: 10px 0;
+    justify-content: center;
+  }
+}
+
+.process {
+  padding-bottom: 120px;
+}
+.process__area {
+  padding: 0 15px;
+}
+.process__top {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.image.mt-30.security_div2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.crm-title {
+  flex: 1;
+  min-width: 300px;
+  margin-right: 20px;
+}
+
+.security_div2 {
+  flex: 1;
+  min-width: 300px;
+}
+
+.process__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.process__title {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .process__top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .crm-title {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .security_div2 {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .process__app-item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .process {
+    padding-bottom: 80px;
+  }
+
+  .process__wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .process__ss {
+    padding-left: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .process__app-item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .row.g-38 {
+    flex-direction: column;
+  }
+
+  .process__top {
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .process__top.ul_li_between.mt-none-30.security {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .process__title--lg {
+    text-align: center;
+  }
+  .process__ss img {
+    width: 100%;
+    height: auto;
+  }
+  .process__title.mt-30.commitment_div1 {
+    width: 100% !important;
+  }
+  .process__ss.mt-30.commitment_div2 {
+    width: 100% !important;
+  }
+  ul.footer__top.cta-list.ul_li_between.mt-35 {
+    margin-top: 0;
+  }
+}
